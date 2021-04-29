@@ -1,0 +1,7 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/javascript/dummy-pkg-a/v1.0.0"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
